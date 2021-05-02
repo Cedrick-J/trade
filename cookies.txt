@@ -1,0 +1,26 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.irontrade.com	TRUE	/	TRUE	1613772634	__cfduid	d91c5d7f8b9400e50fb1203ee3d1ac98a1611180634
+.irontrade.com	TRUE	/	FALSE	1674254246	_ga	GA1.2.137293286.1611180671
+.irontrade.com	TRUE	/	FALSE	1611268646	_gid	GA1.2.563796965.1611180671
+.irontrade.com	TRUE	/	FALSE	1618958249	_fbp	fb.1.1611180671505.192702693
+.irontrade.com	TRUE	/	TRUE	1642716671	_ym_uid	1611180672758594999
+.irontrade.com	TRUE	/	TRUE	1642716671	_ym_d	1611180672
+.irontrade.com	TRUE	/	TRUE	1611252672	_ym_isad	2
+.irontrade.com	TRUE	/	TRUE	1611184047	_ym_visorc_50866029	w
+.irontrade.com	TRUE	/	FALSE	1642718248	__zlcmid	12FjkZaAiLmlC5R
+app.irontrade.com	FALSE	/	FALSE	1611187200	loginStatsSaved	1
+.irontrade.com	TRUE	/	FALSE	1642716767	user_list[0]	5f5ddecb580602.52014148.x48981d
+#Use Demo account
+app.irontrade.com	FALSE	/	FALSE	1642716767	__accountId	4739813
+#Use Real account
+#app.irontrade.com	FALSE	/	FALSE	1642742762	__accountId	4739829
+.irontrade.com	TRUE	/	FALSE	1642717847	user_key	5f5ddecb580602.52014148.x48981d
+.irontrade.com	TRUE	/	FALSE	1642717847	user_id	4757533
+app.irontrade.com	FALSE	/	FALSE	0	PHPSESSID	spvdqtcldmsgqegc56fq3jumt3
+app.irontrade.com	FALSE	/	FALSE	1642742802	user_loc	en
+ws.irontrade.com	FALSE	/	FALSE	0	_4893b	http://172.31.244.31:80
+.irontrade.com	TRUE	/	FALSE	1611268646	_uetsid	674d55305b6c11ebbb1123f6dbc1687b
+.irontrade.com	TRUE	/	FALSE	1612586246	_uetvid	674db4305b6c11ebb6f5fb35ccdf0822
