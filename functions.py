@@ -15,7 +15,7 @@ def getPrediction(period):
     'Content-Type':'application/x-www-form-urlencoded',
     'Referer':'https://m.investing.com/currencies/gbp-usd-technical'}
     fields = {
-    'period': '60', 
+    'period': period, 
     'pairID': '2',
     'viewType':'normal'}
     source = requests.post(url, data = fields, headers = headers).text
