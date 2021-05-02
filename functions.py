@@ -20,8 +20,8 @@ def getPrediction(period):
     'viewType':'normal'}
     source = requests.post(url, data = fields, headers = headers).text
     soup   = BeautifulSoup(source, 'lxml')
-    biddir    = soup.find('p',attrs={"class": "coloredBox"}).get_text()
-    return biddir;
+    bid    = soup.find('p',attrs={"class": "coloredBox"}).get_text()
+    return bid;
     
 #Get transaction results
 def gettrans():
