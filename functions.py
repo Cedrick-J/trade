@@ -15,13 +15,13 @@ def getPrediction(period):
     'Content-Type':'application/x-www-form-urlencoded',
     'Referer':'https://m.investing.com/currencies/gbp-usd-technical'}
     fields = {
-    'period': period, 
+    'period': '60', 
     'pairID': '2',
     'viewType':'normal'}
     source = requests.post(url, data = fields, headers = headers).text
     soup   = BeautifulSoup(source, 'lxml')
-    bid    = soup.find('p',attrs={"class": "coloredBox"}).get_text()
-    return bid;
+    biddir    = soup.find('p',attrs={"class": "coloredBox"}).get_text()
+    return biddir;
     
 #Get transaction results
 def gettrans():
