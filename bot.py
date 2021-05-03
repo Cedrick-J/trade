@@ -3,7 +3,7 @@ from functions import *
 
 lastPrediction = ""
 while True:
-    prediction = getPrediction('60')
+    prediction = getPrediction()
 
     print("\n1 Min => "+pred1min)
     print("lastPrediction => "+lastPrediction)
