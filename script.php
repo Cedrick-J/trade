@@ -12,7 +12,7 @@ $headers[] = 'sec-fetch-mode: cors';
 $headers[] = 'sec-fetch-dest: empty';
 $headers[] = 'accept-language:en-US,en;q=0.9';
 $referer = 'https://irontrade.com/'; 
-$useragent = 'Mozilla/5.0 (Linux; Android 9; TECNO KC6 Build/PPR1.180610.011; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36[os: AndroidWeb, application_id: com.full.iron, version: 106, provider: IronTrade]_wvbo_full'; 
+$useragent = 'Mozilla/5.0 (Linux; Android 9; TECNO KC6 Build/PPR1.180610.011; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.91 Mobile Safari/537.36[os: AndroidWeb, application_id: com.full.iron, version: 126, provider: IronTrade]_wvbo_full'; 
 
 #Get sma
 function getSma($url) {
