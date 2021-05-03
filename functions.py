@@ -32,10 +32,8 @@ def lasttrans(trans):
 #Check diretion to bid
 def checkDirection(prediction):
     if prediction == 'Strong Buy':
-        print("Buy")
         makeBid(1);
     elif prediction == 'Strong Sell':
-        print("Sell")
         makeBid(2);
     
 #Check if last transaction was a success and change the bid accordingly
