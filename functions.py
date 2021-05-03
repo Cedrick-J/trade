@@ -23,7 +23,7 @@ def getprediction();
 #Get transaction results
 def gettrans():
     output = subprocess.check_output(["php", "script.php", '{"op":"gettrans"}']).decode()
-    return json.loads(output)['closed']
+    return json.loads(output)['data']
     
 #Check if last 3 transactions were a succes
 def lasttrans(trans):
