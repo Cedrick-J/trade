@@ -6,21 +6,18 @@ from bs4 import BeautifulSoup
 bid = 5000
 
 #Get the predictions
-def getPrediction(period):
-    url = "https://m.investing.com/instrument/services/getTechnicalData"
-
+def getprediction();
+   url =  "https://ssltools.forexprostools.com/technical_summary.php?pairs=&curr-name-color=%230059B0&fields=1h&force_lang=1";
     headers = {
     'X-Requested-With':'XMLHttpRequest',
     'User-Agent':'Mozilla/5.0',
     'Content-Type':'application/x-www-form-urlencoded',
-    'Referer':'https://m.investing.com/currencies/gbp-usd-technical'}
-    fields = {
-    'period': period, 
-    'pairID': '2',
-    'viewType':'normal'}
-    source = requests.post(url, data = fields, headers = headers).text
+    'Referer':'https://m.investing./currencies/gbp-usd-technical'}
+    
+    source = requests.get(url2, headers=headers).text
     soup   = BeautifulSoup(source, 'lxml')
-    biddir    = soup.find('p',attrs={"class": "coloredBox"}).get_text()
+    data   = soup.find('tr',attrs={"class": "ftqa11 ftqtr1"}).contents[3]
+    biddir = biddir.font.b.get_text()
     return biddir;
     
 #Get transaction results
