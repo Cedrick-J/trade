@@ -14,4 +14,4 @@ while True:
     log.close();
     
     checkDirection(prediction);
-    sleep(30)
+    sleep(2700)
