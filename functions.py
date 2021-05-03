@@ -54,5 +54,5 @@ def placeBid(typ, bid):
     log = open("log.txt","a") 
     log.write("\nBid => "+str(bid));
     output = subprocess.check_output(["php", "script.php", '{"op":"placeBid", "val":"https://app.irontrade.com/ajax/openOperation?type='+str(typ)+'&stock=EURUSD&interval=900&amount='+str(bid)+'accountId=4739813"}']).decode()
-    log.write('\n'+output) 
+    log.write('\n'+output+'\n') 
     log.close()
