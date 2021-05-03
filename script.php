@@ -1,6 +1,7 @@
 <?php
 $bid   = 2000;
-$trans = "https://app.irontrade.com/api/operations";
+$opers = "https://app.irontrade.com/api/operations";
+$trans = "https://app.irontrade.com/api/trading-history";
 $sma6  = "https://www.alphavantage.co/query?function=SMA&symbol=GBPUSD&interval=1min&time_period=6&series_type=close&fastdmatype=0&apikey=3BDE1MTMJ048ETQV";
 $sma14 = "https://www.alphavantage.co/query?function=SMA&symbol=GBPUSD&interval=1min&time_period=14&series_type=close&fastdmatype=0&apikey=3BDE1MTMJ048ETQV";
 $headers[] = 'Origin: https://irontrade.com';
