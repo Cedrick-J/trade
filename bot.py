@@ -5,7 +5,7 @@ lastPrediction = ""
 while True:
     prediction = getPrediction()
 
-    print("\n1 Min => "+pred1min)
+    print("\Prediction "+prediction)
     print("lastPrediction => "+lastPrediction)
     
 
