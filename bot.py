@@ -5,12 +5,12 @@ lastPrediction = ""
 while True:
     prediction = getPrediction()
 
-    print("\Prediction "+prediction)
-    print("lastPrediction => "+lastPrediction)
+    print()
     lastPrediction = prediction
     log = open("log2.txt","a") 
     e = datetime.datetime.now()
-    log.write(e.strftime("%Y-%m-%d %H:%M:%S"))
+    log.write('\n\n'+e.strftime("%Y-%m-%d %H:%M:%S")+':\n'+"\Prediction "+prediction)
+    "\nlastPrediction => "+lastPrediction)
     log.close()
     checkDirection(prediction);
     sleep(30)
